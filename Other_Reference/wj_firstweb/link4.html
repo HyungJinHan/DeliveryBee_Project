@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>link4</title>
+</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hi+Melody&family=Nanum+Brush+Script&display=swap');
+        </style>
+<style>
+    * {
+        font-size: 120%;
+        scroll-behavior: smooth;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .food_btn {
+        overflow: hidden;
+        text-align: left;
+        padding-bottom: 30px;
+
+    }
+
+    .food_btn>p>a {
+        display: inline;
+        position: relative;
+
+    }
+
+    .food_btn>p {
+        font-size: 2em;
+        position: relative;
+        z-index: 10;
+    }
+
+    .food_btn p:hover {
+        transform: scale(2);
+        transition-duration: 1s;
+    }
+
+    .btn_1 {
+        margin-left: 10px;
+    }
+
+    .food_btn p {
+        transition-duration: 1s;
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: large;
+    }
+
+    #main_footer {
+        line-height: 10px;
+        margin-top: 200px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #main_footer p a {
+        cursor: pointer;
+        color: blue;
+        margin-top: 0;
+    }
+
+    h1 {
+        font-family: 'Hi Melody', cursive;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    h2 {
+        font-family: 'Black Han Sans', sans-serif;
+    }
+
+    li {
+        font-family: 'Hi Melody', cursive;
+        line-height: 1.9;
+        list-style: none;
+    }
+
+    .h2_gyo {
+        font-size: 3em;
+        font-family: 'Hi Melody', cursive;
+    }
+
+    .target {
+        color: #ffbbdd
+    }
+
+    section {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    aside {
+        float: right;
+        width: 200px;
+        position: sticky;
+        bottom: 200px;
+        background-color: #ffeeee;
+        margin-right: 80px;
+        border-radius: 20px;
+        font-size: medium;
+
+    }
+</style>
+
+
+<body>
+    <header>
+        <h1>니가 차려먹어</h1>
+        <nav>
+            <div class="food_btn">
+                <p><a class ="btn_1" href = "..\실습\link.html">&#127831;</a></p>
+                <p><a href = "..\실습\link2.html">&#127829;</a></p>
+                <p><a href = "..\실습\link3.html">🥘</a></p>
+                <p><a href = "#">🍰</a></p> 
+            </div>
+        </nav>
+    </header>
+    <section>
+
+        <h2 class="h2_gyo">생일 케이크 만들기</h2>
+        <div>
+            <h2 id="sub">[재료]</h2>
+            <ul id="ingr">
+                <li>
+                    달걀
+                    <span class="count">270g(작은것 6개)</span>
+                </li>
+                <li>
+                    쌀엿
+                    <span class="count">10g</span>
+                </li>
+                <li>
+                    설탕
+                    <span class="count">200g</span>
+                </li>
+                <li>
+                    박력분
+                    <span class="count">180g</span>
+                </li>
+                <li>
+                    설탕
+                    <span class="count">235g</span>
+                </li>
+                <li>
+                    버터
+                    <span class="count">46g</span>
+                </li>
+                <li>
+                    우유
+                    <span class="count">72g</span>
+                </li>
+                <li>
+                    바닐라 익스트랙
+                    <span class="count">1ts</span>
+                </li>
+                <li>
+                    생크림
+                    <span class="count">300g</span>
+                </li>
+                <li>
+                    코앵트로
+                    <span class="count">2+1/2Ts</span>
+                </li>
+                <li>
+                    딸기
+                    <span class="count">1팩</span>
+                </li>
+                <li>
+                    물
+                    <span class="count">60g</span>
+                </li>
+            </ul>
+        </div>
+        <div id="step">
+            <h2><조리순서></h2>
+            <ul>
+                <li>
+                    <p>1️⃣</p>
+                    <span class="exp">먼저 제누와즈를 만듭니다. 레시피는 18cm 원형 2호틀 2개 분량이니까 참고하시구요~ 달걀과 설탕, 쌀엿을 볼에 넣고 따뜻한 물로 중탕해서 설탕과 쌀엿을 전부 녹여주세요. 설탕과 쌀엿이 전부 녹고 달걀물이 목욕물 정도로 따끈해졌으면, 거품기 중속으로 거품을 올려주세요. 반죽이 천천히 떨어지면서 만들어진 자국이 천천히 사라질때까지 거품을 올려주면 됩니다.</span>
+                    <div>
+                        <img src="">
+                    </div>
+                </li>
+                <li>
+                    <p>2️⃣</p>
+                    <span class="exp">그런 다음 저속으로 거품을 2~3분정도 자잘하게 쪼개주세요. 여기에 체친 밀가루를 넣고 큰 동작으로 잘 섞어줍니다.</span>
+                </li>
+                <li>
+                    <p>3️⃣</p>
+                    <span class="exp">버터와 우유는 한그릇에 담고 중탕으로 녹여 미지근하게 온도를 유지해둡니다. 여기에 계란 반죽의 일부를 넣고 잘 섞은 후 본반죽과 잘 섞어주세요.</span>
+                </li>
+                <li>
+                    <p>4️⃣</p>
+                    <span class="exp">유산지 깐 팬에 팬닝한 후 바닥에 가볍게 떨어뜨려 반죽을 정리합니다. 170도로 예열된 오븐에서 30~35분 정도 구워주세요. 윗면이 탄력이 있고 꼬치를 찔어보았을때 깨끗하면 제누와즈 완성입니다.
+                    </span>
+                </li>
+                <li>
+                    <p>5️⃣</p>
+                    <span class="exp">완성된 제누와즈는 식힘망에서 식혀서~</span>
+                </li>
+                <li>
+                    <p>6️⃣</p>
+                    <span class="exp">일정한 두께의 세장으로 슬라이스 합니다.</span>
+                </li>
+                <li>
+                    <p>7️⃣</p>
+                    <span class="exp">시럽을 만듭니다. 설탕과 물을 소스팬에 넣고 설탕이 녹을 정도로만 끓여주세요. 설탕이 다 녹고 어느정도 식으면 코앵트로를 넣고 잘 섞어줍니다.
+                    </span>
+                </li>
+                <li>
+                    <p>8️⃣</p>
+                    <span class="exp">딸기는 깨끗이 씻어 삼등분 한 후 물기를 제거해주세요. 생크림은 설탕과 코앵트로를 넣어 60~70프로 정도, 약간 부드럽지만 뭉뚱한 뿔이 설정도로만 휘핑해주세요.</span>
+                </li>
+                <li>
+                    <p>9️⃣</p>
+                    <span class="exp">시트에 시럽을 충분히 바른 후, 생크림을 얇게 발라주세요. 그 위에 딸기를 올리고 생크림을 한번더 발라줍니다. 다시 위에 시트를 올리고 한번 더 같은 작업을 반복해주세요. 시럽은 시트 앞뒤로 꼼꼼히 발라주는게 좋습니다. 위에 아이싱을 하고 취향에 맞게 데코하면 완성~!</span>
+                </li>
+                
+                <!-- 9️⃣🔟  -->
+                </ul>
+        </div>
+    </section>
+    <aside>
+        <ul class="target">
+            <li><a href="#sub">[재료]</a></li>
+            <li><a href="#step">[조리순서]</a></li>
+        </ul>
+    </aside>
+    <footer id="main_footer">
+        <p>광주인공지능사관학교</p>
+        <p><a onclick="copyText()">jsm9194@gmail.com</a></p>
+    </footer>
+</body>
+<script>
+    function copyText() {
+        navigator.clipboard.writeText("jsm9194@gmail.com");
+        alert("이메일복사");
+    }
+</script>
+</html>

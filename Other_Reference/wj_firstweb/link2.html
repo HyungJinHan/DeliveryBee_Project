@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>link2</title>
+</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hi+Melody&family=Nanum+Brush+Script&display=swap');
+        </style>
+    <style>
+        * {
+            font-size: 120%;
+            scroll-behavior: smooth;
+        }
+    
+        a {
+            text-decoration: none;
+        }
+    
+        .food_btn {
+            overflow: hidden;
+            text-align: left;
+            padding-bottom: 30px;
+    
+        }
+    
+        .food_btn>p>a {
+            display: inline;
+            position: relative;
+    
+        }
+    
+        .food_btn>p {
+            font-size: 2em;
+            position: relative;
+            z-index: 10;
+        }
+    
+        .food_btn p:hover {
+            transform: scale(2);
+            transition-duration: 1s;
+        }
+    
+        .btn_1 {
+            margin-left: 10px;
+        }
+    
+        .food_btn p {
+            transition-duration: 1s;
+            text-align: center;
+            display: inline-block;
+            margin-bottom: 10px;
+            font-size: large;
+        }
+    
+        #main_footer {
+            line-height: 10px;
+            margin-top: 200px;
+            text-align: center;
+            font-size: 20px;
+        }
+    
+        #main_footer p a {
+            cursor: pointer;
+            color: blue;
+            margin-top: 0;
+        }
+    
+        h1 {
+            font-family: 'Hi Melody', cursive;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    
+        h2 {
+            font-family: 'Black Han Sans', sans-serif;
+        }
+    
+        li {
+            font-family: 'Hi Melody', cursive;
+            line-height: 1.9;
+            list-style: none;
+        }
+    
+        .h2_gyo {
+            font-size: 3em;
+            font-family: 'Hi Melody', cursive;
+        }
+    
+        .target {
+            color: #ffbbdd
+        }
+    
+        section {
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+    
+        aside {
+            float: right;
+            width: 200px;
+            position: sticky;
+            bottom: 200px;
+            background-color: #ffeeee;
+            margin-right: 80px;
+            border-radius: 20px;
+            font-size: medium;
+    
+        }
+    </style>
+
+<body>
+    <header>
+        <h1>니가 차려먹어</h1>
+        <nav>
+            <div class="food_btn">
+                <p><a class ="btn_1" href = "..\실습\link.html">&#127831;</a></p>
+                <p><a href = "#">&#127829;</a></p>
+                <p><a href = "..\실습\link3.html">🥘</a></p>
+                <p><a href = "..\실습\link4.html">🍰</a></p> 
+            </div>
+    </header>
+    <section>
+        
+        </nav>
+        <h2 class="h2_gyo">집에서 피자만들기</h2>
+        <div>
+            <h2 id="sub">[재료]</h2>
+            <ul>
+                <li>
+                    강력분
+                    <span class="count">200g</span>
+                </li>
+                <li>
+                    드라이이스트
+                    <span class="count">4g</span>
+                </li>
+                <li>
+                    소금
+                    <span class="count">4g</span>
+                </li>
+                <li>
+                    물
+                    <span class="count">120ml</span>
+                </li>
+                <li>
+                    설탕
+                    <span class="count">10g</span>
+                </li>
+                <li>
+                    올리브 오일
+                    <span class="count">15g</span>
+                </li>
+                <li>
+                    넣고픈 토핑
+                    <span class="count">맘대로</span>
+                </li>
+            </ul>
+        </div>
+        <div id="step">
+            <h2><조리순서></h2>
+            <ul>
+                <li>
+                    <p>1️⃣</p>
+                    <span class="exp">믹싱 볼에 올리브오일을 제외한 모든 재료를 넣어주세요.
+                        이때, 이스트와 설탕 소금은 엉겨 붙지 않도록 간격을 두고 넣어주세요.</span>
+                    <div>
+                        <img src="">
+                    </div>
+                </li>
+                <li>
+                    <p>2️⃣</p>
+                    <span class="exp">반죽기를 사용할 경우 저속(1단)으로 클린업 단계까지 믹싱해주세요.
+                        클린업 단계는 오른쪽 사진처럼 볼 안쪽 면에 뭉친 가루 없이 깔끔하게 반죽이 한덩이 질 때예요.
+                        반죽기가 없다면 직접 손으로 치대주셔도 좋아요.</span>
+                </li>
+                <li>
+                    <p>3️⃣</p>
+                    <span class="exp">전분가루 적당량을 비닐팩에 넣고 닭에 남은 물기를 탈탈 털어 닭봉을 한꺼번에 넣어 흔들어 주면 쉽게 반죽 완성입니다^^
+                        (튀김가루로 하셔도 됩니다^^)</span>
+                </li>
+                <li>
+                    <p>4️⃣</p>
+                    <span class="exp">반죽기에 올리브오일을 넣고 중속(2단)에서 1분-> 고속(3~4단)으로 최종 단계까지 반죽해주세요.
+                        반죽 최종 단계는 수제비 뜨듯이 반죽을 뜯어 늘렸을 때 찢어지지 않고 탄력 있게 팽팽하듯이 늘어나면 됩니다.
+                    </span>
+                </li>
+                <li>
+                    <p>5️⃣</p>
+                    <span class="exp">반죽 위로 비닐을 덮어준 뒤 따뜻하고 습한 곳에서 40분~1시간 정도 1차 발효시켜주세요.</span>
+                </li>
+                <li>
+                    <p>6️⃣</p>
+                    <span class="exp">발효는 오른쪽 사진처럼 반죽이 2배 이상 부풀어 오르고 비닐에 비친 반죽에 구멍이 뽕뽕 보이면 발효가 잘 된 거라고 보시면 돼요.
+                        발효기가 있으면 좋겠지만 저희 집은 없어서 전자레인지에 물 1컵을 1분 정도 돌린 뒤 반죽 볼을 넣어 발효시켰어요.
+                        이건 어디까지나 저의 방법이고 이불 속에 넣는 등 따뜻하고 습한 곳이면 방법은 크게 상관없답니다.</span>
+                </li>
+                <li>
+                    <p>7️⃣</p>
+                    <span class="exp">1차 발효를 마친 반죽은 양손으로 감싸듯이 잡고 둥글리기 해주세요.
+                        다시 비닐을 덮어 실온에서 15분 중간 발효 시켜주세요.
+                        둥글리기는 반죽 내 가스를 빼주기 위해 해주는 건데요.
+                        반죽을 평평한 곳에 두고 양손으로 감싸듯이 잡아 모양이 동그랗게 잡히도록 가볍게 원을 그리며 모양을 잡아주시면 돼요.
+                        <span clss="tip">
+                        너무 오래 해도 좋지 않으니 20초 이내로 해주시면 돼요.</span>
+                    </span>
+                </li>
+                <li>
+                    <p>8️⃣</p>
+                    <span class="exp">밀대를 이용하여 피자 도우 반죽을 얇게 밀어주세요.
+                        이때 반죽의 크기는 팬의 지름보다 0.5~1cm 정도 더 크게 밀어주세요.</span>
+                </li>
+                <li>
+                    <p>9️⃣</p>
+                    <span class="exp">반죽을 피자 팬에 조심스럽게 옮겨준 뒤 포크를 이용하여 바닥 전면에 무작위로 구멍을 내주세요.
+                    </span>
+                </li>
+                <li>
+                    <p>🔟</p>
+                    <span class="exp">반죽 위로 토마토소스 및 토핑을 수북하게 얹어줄 거라서 구멍이 일정하게 예쁘게 낼 필요는 없어요.
+                        무작위로 콕콕 가볍게 찍어가며 구멍을 만들어주세요.
+                    </span>
+                </li>
+                <li>
+                    <p>1️⃣1️⃣</p>
+                    <span class="exp">
+                        반죽 위로 피자 토핑을 가득 넣어주세요.
+                        180도 예열된 오븐에서 20분 정도 구워주세요.
+                        오븐
+                        <span clss="tip">
+                            오븐 사양마다 조리 시간은 상이할 수 있으니 15분 이후부터는 중간중간 확인해주세요.
+                            치즈가 전체적으로 녹아들고 빵이 노릇해지면 피자가 완성된 거랍니다.
+                            
+                        </span>
+                    </span>
+                </li>
+                <!--9️⃣🔟  -->
+                </ul>
+        </div>
+    </section>
+    <aside>
+        <ul class="target">
+            <li><a href="#sub">[재료]</a></li>
+            <li><a href="#step">[조리순서]</a></li>
+        </ul>
+    </aside>
+    <footer id="main_footer">
+        <p>광주인공지능사관학교</p>
+        <p><a onclick="copyText()">jsm9194@gmail.com</a></p>
+    </footer>
+</body>
+<script>
+    function copyText() {
+        navigator.clipboard.writeText("jsm9194@gmail.com");
+        alert("이메일복사");
+    }
+</script>
+
+</html>

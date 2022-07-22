@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>main1</title>
+    <style>
+        a { text-decoration: none; }     
+    </style>
+    <style>
+    #front{
+        margin-top: 300px;
+        color: darkred;
+        font-size: 6em;
+        text-align: center;
+    } 
+    .food_btn{
+        overflow: hidden;
+        text-align: center;
+    }
+    .food_btn> p {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 2em;
+    }
+    .food_btn > p > a {
+        display: inline;
+        position: relative;
+        margin: 50px;   
+    }
+    #main_footer{
+        line-height: 10px;
+        margin-top: 200px;
+    }
+    #main_footer p{
+        text-align: center;
+    }
+    #main_footer p a{
+        cursor: pointer;
+        color: blue;
+        margin-top: 0;
+    }
+    .food_btn p:hover{
+        transform: scale(2);
+        transition-duration: 1s;
+    }
+    .food_btn p{
+        transition-duration: 1s;
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    /* body{
+        background-image: url("http://upload.inven.co.kr/upload/2014/11/05/bbs/i1771129572.gif");
+        background-size: cover;
+    } */
+</style>
+<head>
+<body>
+    <header id="mh">
+        <h1 id ="front">맛있는거 먹고싶어?</h1>
+       <div class="food_btn">
+            <p><a href = "..\실습\link.html">&#127831;</a></p>
+            <p><a href = "..\실습\link2.html">&#127829;</a></p>
+            <p><a href = "..\실습\link3.html">🥘</a></p>
+            <p><a href = "..\실습\link4.html">🍰</a></p> 
+        </div>    
+    </header>
+    <footer id="main_footer">
+        <p>광주인공지능사관학교</p>
+        <p><a onclick="copyText()">jsm9194@gmail.com</a></p>
+    </footer>
+</body>
+<script>
+    function copyText() {
+        navigator.clipboard.writeText("jsm9194@gmail.com");
+        alert("이메일복사");
+    }
+</script>
+</head>
+</html>
+    
