@@ -1,0 +1,157 @@
+.div_1 {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 0;
+    transition: 0.5s;
+    // background-color: #b7b7ff;
+    // background: linear-gradient(to right, #8a8aff 50%, #b7b7ff);
+    // border-right: 5px solid black;
+    overflow: hidden;
+}
+
+.div_ch1 {
+    height: 100%;
+    width: 500px;
+    transition: 0.5s;
+    // background-image: url('./Soc_ball.png');
+    background-image: url('./sport.jpg');
+    background-size: cover;
+    cursor: pointer;
+    // margin-top: 50%;
+}
+
+.div_ch1:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+// .div_1:hover {
+//     transform: scale(1.5, 1.5);
+//     transition: 0.5s;
+// }
+
+.div_2 {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 20%;
+    transition: 0.5s;
+    // border-right: 5px solid black;
+    // border-left: 5px solid black;
+    // background: linear-gradient(to right, #ffa4a4 50%, rgb(255, 210, 210));
+    overflow: hidden;
+}
+
+.div_ch2 {
+    height: 100%;
+    width: 500px;
+    transition: 0.5s;
+    background-image: url('./polic.jpg');
+    background-size: cover;
+    cursor: pointer;
+    // margin-top: 20%;
+}
+
+.div_ch2:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+// .div_2:hover {
+//     transform: scale(1.5, 1.5);
+//     transition: 0.5s;
+// }
+
+.div_3 {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    transition: 0.5s;
+    // border-right: 5px solid black;
+    // background: linear-gradient(to right, #8a8aff 50%, #b7b7ff);
+    overflow: hidden;
+}
+
+.div_ch3 {
+    height: 100%;
+    width: 500px;
+    transition: 0.5s;
+    background-image: url('./money.jpg');
+    background-size: cover;
+    cursor: pointer;
+    // margin-top: 20%;
+}
+
+.div_ch3:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+// .div_3:hover {
+//     transform: scale(1.5, 1.5);
+//     transition: 0.5s;
+// }
+
+.div_4 {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 60%;
+    transition: 0.5s;
+    // border-right: 5px solid black;
+    // background: linear-gradient(to right, #8a8aff 50%, #b7b7ff);
+    overflow: hidden;
+}
+
+.div_ch4 {
+    height: 100%;
+    width: 500px;
+    transition: 0.5s;
+    background-image: url('./semi.jpg');
+    background-size: cover;
+    cursor: pointer;
+    // margin-top: 20%;
+}
+
+.div_ch4:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+// .div_4:hover {
+//     transform: scale(1.5, 1.5);
+//     transition: 0.5s;
+// }
+
+.div_5 {
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    left: 80%;
+    transition: 0.5s;
+    // border-right: 5px solid #61dafb;
+    // background: linear-gradient(to right, #8a8aff 50%, #b7b7ff);
+    overflow: hidden;
+}
+
+.div_ch5 {
+    height: 100%;
+    width: 500px;
+    transition: 0.5s;
+    background-image: url('./eco.jpg');
+    background-size: cover;
+    cursor: pointer;
+    // margin-top: 20%;
+}
+
+.div_ch5:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}
+
+// .div_5:hover {
+//     transform: scale(1.5, 1.5);
+//     transition: 0.5s;
+// }
