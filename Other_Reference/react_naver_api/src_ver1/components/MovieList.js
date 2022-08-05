@@ -5,7 +5,8 @@ import './MovieList.scss'
 
 const MovieList = () => {
     const [items, setItems] = useState(null);
-    // useReducer 사용 ☆
+    const [loading, setLoading] = useState(false);
+    const [ScrollTop, setScrollTop] = useState(null);
 
     const Ref1 = useRef();
     const Ref2 = useRef(0);
@@ -14,10 +15,19 @@ const MovieList = () => {
     const Ref5 = useRef();
     const Ref6 = useRef(null);
 
+    const onClickTop = useCallback(
+        () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+            setScrollTop();
+        },
+        []
+    )
+
     const onSubmit = useCallback(
         (e) => {
-            Ref6.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
             e.preventDefault();
 
             if (Ref4.current.value > Ref5.current.value) {
@@ -31,9 +41,13 @@ const MovieList = () => {
                 return false;
             }
 
+            Ref6.current.scrollIntoView({ behavior: 'smooth' });
+
             const fetchData = async () => {
                 const NAVER_CLIENT_ID = 'SPW_iLqHpIeAA3MQiJHH';
                 const NAVER_CLIENT_SECRET = 'KMQWDX_p6k';
+
+                setLoading(true);
 
                 try {
                     const response = await axios.get(
@@ -57,6 +71,7 @@ const MovieList = () => {
                 } catch (e) {
                     console.log(e);
                 }
+                setLoading(false);
             };
             fetchData();
         },
@@ -65,6 +80,19 @@ const MovieList = () => {
 
     return (
         <div className='searchs'>
+            <div className="wrapper">
+                <div className="focus"></div>
+                <div className="mask">
+                    <div className="text">
+                        <span className='m'>M</span>
+                        <span className='o1'>o</span>
+                        <span className='o2'>o</span>
+                        <span className='g'>g</span>
+                        <span className='l'>l</span>
+                        <span className='e'>e</span>
+                    </div>
+                </div>
+            </div>
             <form onSubmit={onSubmit} className='search_form'>
                 <input
                     type='text'
@@ -147,13 +175,15 @@ const MovieList = () => {
                 </select>
                 <br />
             </form>
+            <button
+                className='top_btn'
+                onClick={onClickTop}
+            >
+                ▲
+            </button>
             <div className='block_div' ref={Ref6}>
-                <br />
-                <h1>엔터를 한번 더 눌러서 검색한 영화를 확인하세요.</h1>
-                <br />
                 {items &&
                     items.items.map((item) => {
-                        console.log('aaaaaa');
                         return (
                             <MovieItem
                                 key={item.link}

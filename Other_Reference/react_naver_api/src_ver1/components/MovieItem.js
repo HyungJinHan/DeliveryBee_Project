@@ -14,8 +14,6 @@ const MovieItem = ({ item }) => {
 
     const title_1 = title.replace(/<[^>]*>?/g, '');
 
-    const director_1 = director.replace(/<[^|]*>?/g, '');
-
     return (
         <div className='movie'>
             {image && (
@@ -31,7 +29,7 @@ const MovieItem = ({ item }) => {
                         {title_1}
                     </a>
                 </h2>
-                <p>감독 : {director_1}</p>
+                <p>감독 : {director}</p>
                 <p>개봉 : {pubDate}</p>
                 <p>평점 : {userRating}</p>
                 {/* <p>배우 : {actor}</p> */}

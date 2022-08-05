@@ -1,76 +1,90 @@
 import axios from 'axios';
-import React, { useCallback, useRef, useState } from 'react';
-import MovieItem from './MovieItem';
-import './MovieList.scss'
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import MovieItem from '../MovieItem';
+import MovieListBlock from '../MovieListBlock';
 
 const MovieList = () => {
     const [items, setItems] = useState(null);
-    // useReducer 사용 ☆
+    const [loading, setLoading] = useState(false);
 
-    const Ref1 = useRef();
-    const Ref2 = useRef(0);
-    const Ref3 = useRef();
-    const Ref4 = useRef();
-    const Ref5 = useRef();
-    const Ref6 = useRef(null);
+    const Ref1 = useRef(null);
+    const Ref2 = useRef(null);
+    const Ref3 = useRef(null);
+    const Ref4 = useRef(null);
+    const Ref5 = useRef(null);
 
     const onSubmit = useCallback(
         (e) => {
-            Ref6.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
+            const ref1 = Ref1.current.value;
+            const ref2 = Ref2.current.value;
+            const ref3 = Ref3.current.value;
+            const ref4 = parseInt(Ref4.current.value);
+            const ref5 = parseInt(Ref5.current.value);
             e.preventDefault();
-
-            if (Ref4.current.value > Ref5.current.value) {
-                alert('제작년도 설정이 잘못되었습니다.');
-                return false;
-            } else if (
-                (Ref4.current.value === Ref5.current.value) &&
-                !(Ref4.current.value === '' && Ref5.current.value === '')
-            ) {
-                alert('제작년도 범위를 정확히 지정해주세요.');
-                return false;
+            return {
+                ref1,
+                ref2,
+                ref3,
+                ref4,
+                ref5
             }
-
-            const fetchData = async () => {
-                const NAVER_CLIENT_ID = 'SPW_iLqHpIeAA3MQiJHH';
-                const NAVER_CLIENT_SECRET = 'KMQWDX_p6k';
-
-                try {
-                    const response = await axios.get(
-                        '/v1/search/movie',
-                        {
-                            params: {
-                                query: Ref1.current.value, // 이미지 검색 텍스트
-                                genre: Ref2.current.value,
-                                country: Ref3.current.value,
-                                yearfrom: Ref4.current.value,
-                                yearto: Ref5.current.value,
-                                start: 1, // 검색 시작 위치
-                                display: 100, // 가져올 이미지 개수
-                            },
-                            headers: {
-                                'X-Naver-Client-Id': NAVER_CLIENT_ID,
-                                'X-Naver-Client-Secret': NAVER_CLIENT_SECRET
-                            },
-                        });
-                    setItems(response.data);
-                } catch (e) {
-                    console.log(e);
-                }
-            };
-            fetchData();
         },
         []
     );
 
+    const NAVER_CLIENT_ID = 'SPW_iLqHpIeAA3MQiJHH';
+    const NAVER_CLIENT_SECRET = 'KMQWDX_p6k';
+
+    useEffect((ref1, ref2, ref3, ref4, ref5) => {
+        const fetchData = async () => {
+            setLoading(true);
+            try {
+                const response = await axios.get(
+                    '/v1/search/movie',
+                    {
+                        params: {
+                            query: `${ref1}`, // 이미지 검색 텍스트
+                            genre: `${ref2}`,
+                            country: `${ref3}`,
+                            yearfrom: `${ref4}`,
+                            yearto: `${ref5}`,
+                            start: 1, // 검색 시작 위치
+                            display: 100, // 가져올 이미지 개수
+                        },
+                        headers: {
+                            'X-Naver-Client-Id': NAVER_CLIENT_ID,
+                            'X-Naver-Client-Secret': NAVER_CLIENT_SECRET
+                        },
+                    });
+                console.log(response())
+                setItems(response.data.items);
+            } catch (e) {
+                console.log(e);
+            }
+            setLoading(false);
+        };
+        fetchData();
+    }, []);
+
+    if (loading) {
+        return (
+            <MovieListBlock>
+                영화를 불러오는 중 입니다...
+            </MovieListBlock>
+        );
+    }
+
+    if (!items) {
+        return null;
+    }
+
     return (
-        <div className='searchs'>
-            <form onSubmit={onSubmit} className='search_form'>
+        <div>
+            <form onSubmit={onSubmit}>
                 <input
-                    type='text'
                     ref={Ref1}
-                    placeholder='🔍'
                 />
+                <button type='submit'>검색</button>
                 <br />
                 <select
                     ref={Ref2}
@@ -106,7 +120,6 @@ const MovieList = () => {
                     <option value="27">영화음악</option>
                     <option value="28">영화패러디포스터</option>
                 </select>
-                |
                 <select
                     ref={Ref3}
                 >
@@ -119,11 +132,10 @@ const MovieList = () => {
                     <option value="FR">프랑스</option>
                     <option value="ETC">기타</option>
                 </select>
-                |
                 <select
                     ref={Ref4}
                 >
-                    <option value="">제작년도</option>
+                    <option value="">첫 번째 제작년도</option>
                     <option value="1960">1960년도</option>
                     <option value="1970">1970년도</option>
                     <option value="1980">1980년도</option>
@@ -132,11 +144,10 @@ const MovieList = () => {
                     <option value="2010">2010년도</option>
                     <option value="2020">2020년도</option>
                 </select>
-                <b>~</b>
                 <select
                     ref={Ref5}
                 >
-                    <option value="">제작년도</option>
+                    <option value="">두 번째 제작년도</option>
                     <option value="1960">1960년도</option>
                     <option value="1970">1970년도</option>
                     <option value="1980">1980년도</option>
@@ -145,23 +156,17 @@ const MovieList = () => {
                     <option value="2010">2010년도</option>
                     <option value="2020">2020년도</option>
                 </select>
-                <br />
             </form>
-            <div className='block_div' ref={Ref6}>
-                <br />
-                <h1>엔터를 한번 더 눌러서 검색한 영화를 확인하세요.</h1>
-                <br />
-                {items &&
-                    items.items.map((item) => {
-                        console.log('aaaaaa');
-                        return (
-                            <MovieItem
-                                key={item.link}
-                                item={item}
-                            />
-                        );
-                    })}
-            </div>
+            <MovieListBlock>
+                {items.map(
+                    (item) => (
+                        <MovieItem
+                            key={item.link}
+                            item={item}
+                        />
+                    )
+                )}
+            </MovieListBlock>
         </div>
     );
 };

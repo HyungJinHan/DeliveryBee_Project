@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useCallback, useRef, useState } from 'react';
-import MovieItem from './MovieItem';
+import MovieItem from '../MovieItem';
 import './MovieList.scss'
 
 const MovieList = () => {
@@ -16,7 +16,7 @@ const MovieList = () => {
 
     const onSubmit = useCallback(
         (e) => {
-            Ref6.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            Ref6.current.scrollIntoView({ behavior: 'smooth' });
 
             e.preventDefault();
 
@@ -148,9 +148,6 @@ const MovieList = () => {
                 <br />
             </form>
             <div className='block_div' ref={Ref6}>
-                <br />
-                <h1>엔터를 한번 더 눌러서 검색한 영화를 확인하세요.</h1>
-                <br />
                 {items &&
                     items.items.map((item) => {
                         console.log('aaaaaa');
