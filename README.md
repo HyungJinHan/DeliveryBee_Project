@@ -41,6 +41,6 @@
   
 ![22](https://user-images.githubusercontent.com/104360734/199014155-fbd30b27-ed63-4cc4-9316-48c063fcdf44.gif)
   
-![23-28](https://user-images.githubusercontent.com/104360734/199014165-e0d98b55-0cac-489b-b6db-58dea0bf8f39.gif)
+![23-28](https://user-images.githubusercontent.com/104360734/199014453-bb475a79-8393-4ee5-9655-54f6451f3c4a.gif)
 
 </div>
