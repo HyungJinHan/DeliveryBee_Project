@@ -23,3 +23,18 @@
 - 공동 Repository 생성 후, 개별적인 branch 생성과 팀장을 통한 merge 작업으로 프로젝트 관리
 - 일정은 8월 16일부터 시작
 - 도움이 될 만한 코드의 예제 실습 후, 참고 사항으로 커밋 예정
+
+## 4. 프로젝트 상세 내용
+<div align='center'>
+
+![1-2](https://user-images.githubusercontent.com/104360734/199012590-8ca95b4a-d655-4e13-930e-ad0af3eb73d1.gif)
+
+![3-8](https://user-images.githubusercontent.com/104360734/199013315-2e35c796-d511-4ed2-9ced-57600b06f104.gif)
+
+![9-12](https://user-images.githubusercontent.com/104360734/199013429-e2033449-1cd2-46ca-ae80-7f3d8141b55f.gif)
+
+![13-17](https://user-images.githubusercontent.com/104360734/199013212-b404d328-3071-492d-aaab-f2e09d1b9d21.gif)
+
+![18-19](https://user-images.githubusercontent.com/104360734/199013086-c6d5e281-0a70-41ad-8692-65be2180fb1e.gif)
+
+</div>
