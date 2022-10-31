@@ -26,12 +26,20 @@
 
 ## 4. 프로젝트 상세 내용
 <div align='center'>
+  
+  ## 목차
+  
+![1-2](https://user-images.githubusercontent.com/104360734/199129877-037d0271-e428-4155-b291-2487018c48b3.gif)
+  
+  ## 기획 의도
 
-![1-2](https://user-images.githubusercontent.com/104360734/199012590-8ca95b4a-d655-4e13-930e-ad0af3eb73d1.gif)
+![3-8](https://user-images.githubusercontent.com/104360734/199129893-73d2c35c-23e6-40aa-ad18-1b4cc4f6068b.gif)
+  
+  ## 개발관련 정보
 
-![3-8](https://user-images.githubusercontent.com/104360734/199013315-2e35c796-d511-4ed2-9ced-57600b06f104.gif)
-
-![9-12](https://user-images.githubusercontent.com/104360734/199013429-e2033449-1cd2-46ca-ae80-7f3d8141b55f.gif)
+![9-12](https://user-images.githubusercontent.com/104360734/199129901-24fe2808-bd85-4811-8bc5-8f806e1048ec.gif)
+  
+  ## UI / UX 설계
 
 ![13-17](https://user-images.githubusercontent.com/104360734/199013212-b404d328-3071-492d-aaab-f2e09d1b9d21.gif)
 
@@ -40,6 +48,8 @@
 ![20-21](https://user-images.githubusercontent.com/104360734/199014137-65074100-4a03-40b4-aa57-f4859b0fd7c1.gif)
   
 ![22](https://user-images.githubusercontent.com/104360734/199014155-fbd30b27-ed63-4cc4-9316-48c063fcdf44.gif)
+  
+  ## 개선 사항 & 팀원 소개
   
 ![23-28](https://user-images.githubusercontent.com/104360734/199014453-bb475a79-8393-4ee5-9655-54f6451f3c4a.gif)
 
