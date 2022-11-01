@@ -1,11 +1,34 @@
 # AI School 첫번째 프로젝트
 ## 1. 팀 구성원
-- 한형진 (팀장)
-- 전우진 (팀원)
-- 황기성 (팀원)
-- 문경현 (팀원)
-- 김성환 (팀원)
-- 김건 (팀원)
+> 한형진 (팀장)
+>> 프로젝트 총괄<br>
+프로젝트 PPT 제작 및 기획서 총 담당<br>
+DB 설계 및 `Node.js` 기반의 `express` 사용을 통한 백엔드 작업 실시<br>
+
+<br>
+
+> 전우진 (팀원)
+>> 
+
+<br>
+
+> 황기성 (팀원)
+>> 
+
+<br>
+
+> 문경현 (팀원)
+>>  
+
+<br>
+
+> 김성환 (팀원)
+>>  
+
+<br>
+
+> 김건 (팀원)
+>> 
 
 ## 2. 사용 언어 & 에디터
 - [<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
