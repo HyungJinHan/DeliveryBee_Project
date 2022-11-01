@@ -1,43 +1,31 @@
 # AI School 첫번째 프로젝트
 ## 1. 팀 구성원
-> 한형진 (팀장)
->> 프로젝트 총괄<br>
-프로젝트 PPT 제작 및 기획서 총 담당<br>
-DB 설계 및 `Node.js` 기반의 `express` 사용을 통한 백엔드 작업 실시<br>
+> 팀장
+>> 한형진
 
 <br>
 
-> 전우진 (팀원)
->> 
-
-<br>
-
-> 황기성 (팀원)
->> 
-
-<br>
-
-> 문경현 (팀원)
->>  
-
-<br>
-
-> 김성환 (팀원)
->>  
-
-<br>
-
-> 김건 (팀원)
->> 
+> 팀원
+>> 전우진 / 황기성 / 문경현 / 김성환 / 김건
 
 ## 2. 사용 언어 & 에디터
-- [<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
-- [<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white">](https://developer.mozilla.org/ko/docs/Web/CSS)
-- [<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=424242">](https://developer.mozilla.org/ko/docs/Web/JavaScript)
-- [<img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white">](https://jquery.com/)
-- [<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black">](https://ko.reactjs.org/)
-- [<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white">](https://nodejs.org/ko/)
-- [<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white">](https://code.visualstudio.com/?wt.mc_id=DX_841432)
+> Front-End
+>> [<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+>> [<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white">](https://developer.mozilla.org/ko/docs/Web/CSS)
+>> [<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=424242">](https://developer.mozilla.org/ko/docs/Web/JavaScript)
+>> [<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black">](https://ko.reactjs.org/)
+
+<br>
+
+> Back-End
+>> [<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white">](https://nodejs.org/ko/)
+>> [<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySql&logoColor=white">](https://www.mysql.com/)
+
+<br>
+
+> Edit Tool
+>> [<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white">](https://code.visualstudio.com/?wt.mc_id=DX_841432)
+>> [<img src="https://img.shields.io/badge/MySQL Workbanch-4479A1?style=flat-square&logo=MySql&logoColor=white">](https://dev.mysql.com/downloads/workbench/)
 
 ## 3. 프로젝트 관리
 - VS Code를 통한 GitHub와의 Clone 연동 후 작업
