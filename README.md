@@ -27,30 +27,31 @@
 ## 4. 프로젝트 상세 내용
 <div align='center'>
   
-  ## 목차
+  |목차|
+  |---|
+  |![1-2](https://user-images.githubusercontent.com/104360734/199129877-037d0271-e428-4155-b291-2487018c48b3.gif)|
+  <br>
   
-![1-2](https://user-images.githubusercontent.com/104360734/199129877-037d0271-e428-4155-b291-2487018c48b3.gif)
+  |기획 의도|
+  |---|
+  |![3-8](https://user-images.githubusercontent.com/104360734/199129893-73d2c35c-23e6-40aa-ad18-1b4cc4f6068b.gif)|
+  <br>
   
-  ## 기획 의도
-
-![3-8](https://user-images.githubusercontent.com/104360734/199129893-73d2c35c-23e6-40aa-ad18-1b4cc4f6068b.gif)
+  |개발관련 정보|
+  |---|
+  |![9-12](https://user-images.githubusercontent.com/104360734/199129901-24fe2808-bd85-4811-8bc5-8f806e1048ec.gif)|
+  <br>
   
-  ## 개발관련 정보
-
-![9-12](https://user-images.githubusercontent.com/104360734/199129901-24fe2808-bd85-4811-8bc5-8f806e1048ec.gif)
+  |UI / UX 설계|
+  |---|
+  |![13-17](https://user-images.githubusercontent.com/104360734/199013212-b404d328-3071-492d-aaab-f2e09d1b9d21.gif)|
+  |![18-19](https://user-images.githubusercontent.com/104360734/199013086-c6d5e281-0a70-41ad-8692-65be2180fb1e.gif)|
+  |![20-21](https://user-images.githubusercontent.com/104360734/199014137-65074100-4a03-40b4-aa57-f4859b0fd7c1.gif)|
+  |![22](https://user-images.githubusercontent.com/104360734/199014155-fbd30b27-ed63-4cc4-9316-48c063fcdf44.gif)|
+  <br>
   
-  ## UI / UX 설계
-
-![13-17](https://user-images.githubusercontent.com/104360734/199013212-b404d328-3071-492d-aaab-f2e09d1b9d21.gif)
-
-![18-19](https://user-images.githubusercontent.com/104360734/199013086-c6d5e281-0a70-41ad-8692-65be2180fb1e.gif)
-  
-![20-21](https://user-images.githubusercontent.com/104360734/199014137-65074100-4a03-40b4-aa57-f4859b0fd7c1.gif)
-  
-![22](https://user-images.githubusercontent.com/104360734/199014155-fbd30b27-ed63-4cc4-9316-48c063fcdf44.gif)
-  
-  ## 개선 사항 & 팀원 소개
-  
-![23-28](https://user-images.githubusercontent.com/104360734/199014453-bb475a79-8393-4ee5-9655-54f6451f3c4a.gif)
+  |개선 사항 & 팀원 소개|
+  |---|
+  |![23-28](https://user-images.githubusercontent.com/104360734/199014453-bb475a79-8393-4ee5-9655-54f6451f3c4a.gif)|
 
 </div>
