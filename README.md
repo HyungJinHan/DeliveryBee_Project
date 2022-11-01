@@ -1,18 +1,18 @@
-# AI School 첫번째 프로젝트
-## 1. 팀 구성원
-- 팀장
-  - 한형진
+# AI School First Team Project
+## 1. About Team
+- Team Leader
+  - 한형진 - `README Writer`
   
 <br>
 
-- 팀원
+- Team Members
   - 전우진
   - 황기성
   - 문경현
   - 김성환
   - 김건
 
-## 2. 사용 언어 & 에디터
+## 2. Tech & Edit Tool
 - Front-End
   - [<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)&nbsp;
   - [<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white">](https://developer.mozilla.org/ko/docs/Web/CSS)&nbsp;
@@ -31,24 +31,20 @@
   - [<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white">](https://code.visualstudio.com/?wt.mc_id=DX_841432)&nbsp;
   - [<img src="https://img.shields.io/badge/MySQL Workbanch-4479A1?style=flat-square&logo=MySql&logoColor=white">](https://dev.mysql.com/downloads/workbench/)
 
-## 3. 프로젝트 관리
-- VS Code를 통한 GitHub와의 Clone 연동 후 작업
+## 3. Project Management (22.08.16 ~ 22.09.05)
+- VS Code를 통한 `GitHub`와의 `Clone` 후 작업
 
 <br>
 
-- GitHub의 프로젝트를 통한 일정, 작업 조율 및 관리
+- `GitHub`의 프로젝트를 통한 일정, 작업 조율 및 관리
 
 <br>
 
-- issue 사용을 통한 예정 사항, 아이디어 회의 및 각자 할 일 정리
+- `issue` 사용을 통한 예정 사항, 아이디어 회의 및 각자 할 일 정리
 
 <br>
 
-- 공동 Repository 생성 후, 개별적인 branch 생성과 팀장을 통한 merge 작업으로 프로젝트 관리
-
-<br>
-
-- 일정은 8월 16일부터 시작
+- 공동 `Repository` 생성 후, 개별적인 `branch` 생성과 팀장을 통한 `merge` 작업으로 프로젝트 관리
 
 <br>
 
