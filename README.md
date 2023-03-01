@@ -21,22 +21,22 @@
 ## 2. Tech & Edit Tool
 
 - Front-End
-  [<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">](https://developer.mozilla.org/ko/docs/Learn/HTML/Introduction_to_HTML/Getting_started)&nbsp;
-  [<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white">](https://developer.mozilla.org/ko/docs/Web/CSS)&nbsp;
-  [<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=424242">](https://developer.mozilla.org/ko/docs/Web/JavaScript)&nbsp;
-  [<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black">](https://ko.reactjs.org/)
+  <br><br>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">&nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=424242">&nbsp;
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
 
-<br>
 
 - Back-End
-  [<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white">](https://nodejs.org/ko/)&nbsp;
-  [<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySql&logoColor=white">](https://www.mysql.com/)
+  <br><br>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">&nbsp;
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySql&logoColor=white">
 
-<br>
 
 - Edit Tool
-  [<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white">](https://code.visualstudio.com/?wt.mc_id=DX_841432)&nbsp;
-  [<img src="https://img.shields.io/badge/MySQL Workbanch-4479A1?style=flat-square&logo=MySql&logoColor=white">](https://dev.mysql.com/downloads/workbench/)
+  <br><br>
+  <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white">&nbsp;
+  <img src="https://img.shields.io/badge/MySQL Workbanch-4479A1?style=for-the-badge&logo=MySql&logoColor=white">
 
 <br><br>
 
