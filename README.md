@@ -1,17 +1,15 @@
 <hr>
 
 <div align='center'>
-  <img width='50%' src='.\public\deliveryBee.svg'></img>
- </div>
+  <img width='50%' src='.\public\deliveryBee.png'></img>
+</div>
 
 <hr>
 <br>
 
 ### <b>배달 수수료 절감을 위한 그룹화 배달 서비스를 제공하는 플랫폼 '배달Bee' 프로젝트</b>
 
-### 배달BEE Prototype
-
-
+> QR 코드를 통해 배달BEE의 Prototype을 체험해보실 수 있습니다.
 
 <br><br>
 
